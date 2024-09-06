@@ -3,7 +3,12 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "prod": "npm run build"
+        "prod": "npm run build",
+        "watch": "mix watch",
+        "watch-pool": "mix-watch -- --watch-options-pool=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
     },
     "devDependencies": {
         "@headlessui/react": "^1.4.2",
